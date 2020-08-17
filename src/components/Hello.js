@@ -6,13 +6,13 @@ export default function Hello({name}) {
     )
 }
 
-export function StateExample({loading}) {
+export function IsLoading({loading}) {
     if (loading) {
         return (
             <p>Currently loading, please hold on.</p>
         )
     }
     return (
-        <p>Here's your content  t</p>
+        <p>Here's your content</p>
     )
 }

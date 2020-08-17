@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello, { StateExample } from '../components/Hello';
+import Hello, { IsLoading } from '../components/Hello';
 
 export default {
     title: 'Hello Story',
@@ -20,12 +20,12 @@ export function TestUser() {
 
 export function NotLoading() {
     return (
-        <StateExample />
+        <IsLoading />
     )
 }
 
 export function Loading() {
     return (
-        <StateExample loading={true} />
+        <IsLoading loading={true} />
     )
 }
